@@ -9,8 +9,8 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
 1. Créez un fichier HTML nommé `index.html`.
 2. Créez une structure HTML de base avec les balises `<html>`, `<head>` et `<body>`.
 3. Liez Bootstrap et Google Fonts à votre fichier HTML.
-4. Créez deux div de classe "col-6" à l'intérieur du corps (`<body>`) de votre document HTML. Ces div seront utilisées pour afficher vos contenus.
-5. Écrivez un script JavaScript pour créer dynamiquement le contenu de chaque div :
+4. Créez deux div de classe "col-6" à l'intérieur du corps (`<body>`) de votre document HTML. Ces div seront utilisées pour afficher vos contenus. Elle doivent rester vides côté HTML.
+5. Écrivez un script JavaScript pour créer et ajouter dynamiquement le contenu de chaque div :
    - Pour chaque div :
      - Créez une balise `<img>` avec un lien vers une image de votre choix.
      - Créez une balise `<h3>` avec un titre.
