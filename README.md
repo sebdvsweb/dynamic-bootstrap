@@ -2,14 +2,14 @@
 
 ## Objectif
 
-L'objectif de cet exercice est de pratiquer la création dynamique de contenus HTML en utilisant JavaScript. Vous allez créer deux div de classe "col-6" basées sur Bootstrap, chacune contenant une image, un titre et un paragraphe. Vous allez également ajouter du style CSS et des polices Google Fonts dynamiquement via JavaScript.
+L'objectif de cet exercice est de pratiquer la création dynamique de contenus HTML en utilisant JavaScript. Vous allez créer trois div de classe `col-4` basées sur Bootstrap, chacune contenant une image, un titre et un paragraphe. Vous allez également ajouter du style CSS et des polices Google Fonts dynamiquement via JavaScript.
 
 ## Instructions
 
 1. Créez un fichier HTML nommé `index.html`.
 2. Créez une structure HTML de base avec les balises `<html>`, `<head>` et `<body>`.
 3. Liez Bootstrap et Google Fonts à votre fichier HTML.
-4. Créez deux div de classe "col-6" à l'intérieur du corps (`<body>`) de votre document HTML. Ces div seront utilisées pour afficher vos contenus. Elle doivent rester vides côté HTML.
+4. Créez les div de class `col-4` à l'intérieur du corps (`<body>`) de votre document HTML. Ces div seront utilisées pour afficher vos contenus. Elle doivent rester vides côté HTML.
 5. Écrivez un script JavaScript pour créer et ajouter dynamiquement le contenu de chaque div :
    - Pour chaque div :
      - Créez une balise `<img>` avec un lien vers une image de votre choix.
