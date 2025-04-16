@@ -15,7 +15,7 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
      - Créez une balise `<img>` avec un lien vers une image de votre choix.
      - Créez une balise `<h3>` avec un titre.
      - Créez une balise `<p>` avec un paragraphe de texte.
-     - Appliquez des styles CSS aux div et au contenu (vous pouvez utiliser les classes Bootstrap pour cela).
+     - Appliquez des styles CSS aux div et au contenu (vous pouvez utiliser les classes Bootstrap pour cela ainsi que la font Google importée).
      - Utilisez JavaScript pour ajouter des styles et des classes aux éléments créés.
 6. Testez votre page dans un navigateur pour vous assurer que les contenus sont affichés correctement avec le bon style.
 
