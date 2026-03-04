@@ -2,7 +2,7 @@
 
 ## Objectif
 
-L'objectif de cet exercice est de pratiquer la création dynamique de contenus HTML en utilisant JavaScript. Vous allez générer dynamiquement trois colonnes Bootstrap (`col-12 col-md-4`) à partir d'un tableau de données, chacune contenant une image, un titre et un paragraphe.
+L'objectif de cet exercice est de pratiquer la création dynamique de contenus HTML en utilisant JavaScript. Vous allez générer dynamiquement trois colonnes Bootstrap (`col-12 col-md-4`) à partir d'un tableau de données, chacune contenant une image, un titre, un paragraphe et un lien hypertexte.
 
 ## Instructions
 
@@ -17,13 +17,14 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
    - À l'intérieur, une `<div class="row">` qui restera **vide côté HTML** — c'est JavaScript qui y injectera les colonnes.
 
 5. Écrivez un script JavaScript pour créer et injecter dynamiquement les colonnes dans la `row` :
-   - Déclarez un tableau `data` au format JSON contenant 3 objets, chacun avec les propriétés `image`, `title` et `text`. Voici un exemple de structure attendue (avec une seule entrée) :
+   - Déclarez un tableau `data` au format JSON contenant 3 objets, chacun avec les propriétés `image`, `title`, `text` et `link`. Voici un exemple de structure attendue (avec une seule entrée) :
      ```json
      [
        {
          "image": "https://exemple.com/photo.jpg",
          "title": "Mon titre",
-         "text": "Mon paragraphe de description."
+         "text": "Mon paragraphe de description.",
+         "link": "https://exemple.com"
        }
      ]
      ```
@@ -33,7 +34,8 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
      - Créez une balise `<img>` avec les attributs `src` et `alt`.
      - Créez une balise `<h3>` avec le titre, et ajoutez-lui la classe Bootstrap `text-primary`.
      - Créez une balise `<p>` avec le texte descriptif.
-     - Ajoutez ces trois éléments à la colonne avec `appendChild`.
+     - Créez une balise `<a>` avec l'attribut `href` pointant vers l'URL de la propriété `link`, un texte de lien explicite, et l'attribut `target="_blank"` pour l'ouvrir dans un nouvel onglet.
+     - Ajoutez ces quatre éléments à la colonne avec `appendChild`.
      - Ajoutez la colonne à la `row` avec `appendChild`.
 
 6. Ajoutez des styles CSS dans une balise `<style>` dans le `<head>` pour personnaliser l'apparence des colonnes (fond blanc, padding, bordure simulant un espacement, etc.).
@@ -44,11 +46,11 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
 
 Voici les contenus à intégrer dans votre tableau `data` :
 
-| # | Image | Titre | Texte |
-|---|-------|-------|-------|
-| 1 | `https://picsum.photos/600/400?random=101` | Exploration Urbaine | Partez à la découverte des paysages urbains et de l'architecture moderne à travers cette vue captivante. |
-| 2 | `https://picsum.photos/600/400?random=102` | Nature & Détente | Un moment de calme et de fraîcheur au cœur d'une nature apaisante. Respirez profondément. |
-| 3 | `https://picsum.photos/600/400?random=103` | Technologie en Mouvement | Plongez dans le futur avec cette illustration dynamique du progrès technologique. |
+| # | Image | Titre | Texte | Lien |
+|---|-------|-------|-------|------|
+| 1 | `https://picsum.photos/600/400?random=101` | Exploration Urbaine | Partez à la découverte des paysages urbains et de l'architecture moderne à travers cette vue captivante. | `https://www.nyc.gov` |
+| 2 | `https://picsum.photos/600/400?random=102` | Nature & Détente | Un moment de calme et de fraîcheur au cœur d'une nature apaisante. Respirez profondément. | `https://www.ffrandonnee.fr` |
+| 3 | `https://picsum.photos/600/400?random=103` | Technologie en Mouvement | Plongez dans le futur avec cette illustration dynamique du progrès technologique. | `https://www.anthropic.com` |
 
 ## Bonus
 
