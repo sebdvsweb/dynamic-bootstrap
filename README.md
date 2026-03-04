@@ -17,7 +17,11 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
    - À l'intérieur, une `<div class="row">` qui restera **vide côté HTML** — c'est JavaScript qui y injectera les colonnes.
 
 5. Écrivez un script JavaScript pour créer et injecter dynamiquement les colonnes dans la `row` :
-   - Déclarez un tableau `data` au format JSON contenant 3 objets, chacun avec les propriétés `image`, `title`, `text` et `link`. Voici un exemple de structure attendue (avec une seule entrée) :
+   
+   - Déclarez un tableau `data` au format JSON contenant 3 objets, chacun avec les propriétés `image`, `title`, `text` et `link`.
+     
+   - Voici un exemple de structure attendue (avec une seule entrée) :
+     
      ```json
      [
        {
@@ -28,9 +32,11 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
        }
      ]
      ```
+     
    - Récupérez la `div.row` dans le DOM via `querySelector`.
+     
    - Parcourez le tableau avec `forEach` et, pour chaque élément :
-     - Créez une `<div>` colonne avec les classes `col-12 col-md-4` (responsive : pleine largeur sur mobile, 1/3 sur écran moyen et plus).
+     - Créez une `<div>` colonne avec les classes `col-12 col-md-4`.
      - Créez une balise `<img>` avec les attributs `src` et `alt`.
      - Créez une balise `<h3>` avec le titre, et ajoutez-lui la classe Bootstrap `text-primary`.
      - Créez une balise `<p>` avec le texte descriptif.
@@ -38,9 +44,9 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
      - Ajoutez ces quatre éléments à la colonne avec `appendChild`.
      - Ajoutez la colonne à la `row` avec `appendChild`.
 
-6. Ajoutez des styles CSS dans une balise `<style>` dans le `<head>` pour personnaliser l'apparence des colonnes (fond blanc, padding, bordure simulant un espacement, etc.).
+7. Ajoutez des styles CSS dans une balise `<style>` dans le `<head>` pour personnaliser l'apparence des colonnes (fond blanc, padding, bordure simulant un espacement, etc.).
 
-7. Testez votre page dans un navigateur pour vous assurer que les trois colonnes s'affichent correctement côte à côte (sur écran md+) avec le bon style et les images.
+8. Testez votre page dans un navigateur pour vous assurer que les trois colonnes s'affichent correctement côte à côte (sur écran md+) avec le bon style et les images.
 
 ## Données à utiliser
 
