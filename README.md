@@ -21,6 +21,20 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
 5. Écrivez un script JavaScript dans un fichier `main.js` pour créer et injecter dynamiquement les colonnes dans la `row` :
    
    - Déclarez un tableau `data` au format JSON contenant 3 objets, chacun avec les propriétés `image`, `title`, `text` et `link`.
+  
+   ```json
+     const data = [
+      {
+        /* Objet 1 */
+      },
+      {
+        /* Objet 2 */
+      },
+      {
+        /* Objet 3 */
+      }
+    ];
+   ```
      
    - Voici un exemple de structure attendue (avec une seule entrée) :
      
