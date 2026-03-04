@@ -22,19 +22,19 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
    
    - Déclarez un tableau `data` au format JSON contenant 3 objets, chacun avec les propriétés `image`, `title`, `text` et `link`.
   
-   ```js
-     const data = [
-      {
-        /* Objet 1 */
-      },
-      {
-        /* Objet 2 */
-      },
-      {
-        /* Objet 3 */
-      }
-    ];
-   ```
+      ```js
+        const data = [
+         {
+           /* Objet 1 */
+         },
+         {
+           /* Objet 2 */
+         },
+         {
+           /* Objet 3 */
+         }
+       ];
+      ```
      
    - Voici un exemple de structure attendue (avec une seule entrée) :
      
