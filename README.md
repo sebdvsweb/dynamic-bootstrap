@@ -4,6 +4,8 @@
 
 L'objectif de cet exercice est de pratiquer la création dynamique de contenus HTML en utilisant JavaScript. Vous allez générer dynamiquement trois colonnes Bootstrap (`col-12 col-md-4`) à partir d'un tableau de données, chacune contenant une image, un titre, un paragraphe et un lien hypertexte.
 
+![Final](https://sebastien-devos.fr/img/codegt/dynamic-bootstrap.png)
+
 ## Instructions
 
 1. Créez un fichier HTML nommé `index.html`.
