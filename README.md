@@ -22,7 +22,7 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
    
    - Déclarez un tableau `data` au format JSON contenant 3 objets, chacun avec les propriétés `image`, `title`, `text` et `link`.
   
-   ```json
+   ```js
      const data = [
       {
         /* Objet 1 */
