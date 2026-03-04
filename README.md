@@ -52,6 +52,13 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
    - Récupérez la `div.row` dans le DOM via `querySelector`.
      
    - Parcourez le tableau avec `forEach` et, pour chaque élément :
+
+  ```js
+   data.forEach(function(item) {
+      /* votre code */
+   });
+   ```
+
      - Créez une `<div>` colonne avec les classes `col-12 col-md-4`.
      - Créez une balise `<img>` avec les attributs `src` et `alt`.
      - Créez une balise `<h3>` avec le titre, et ajoutez-lui la classe Bootstrap `text-primary`.
