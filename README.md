@@ -18,7 +18,7 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
    - Une `<div class="container">` englobante
    - À l'intérieur, une `<div class="row">` qui restera **vide côté HTML** — c'est JavaScript qui y injectera les colonnes.
 
-5. Écrivez un script JavaScript pour créer et injecter dynamiquement les colonnes dans la `row` :
+5. Écrivez un script JavaScript dans un fichier `main.js` pour créer et injecter dynamiquement les colonnes dans la `row` :
    
    - Déclarez un tableau `data` au format JSON contenant 3 objets, chacun avec les propriétés `image`, `title`, `text` et `link`.
      
@@ -46,7 +46,7 @@ L'objectif de cet exercice est de pratiquer la création dynamique de contenus H
      - Ajoutez ces quatre éléments à la colonne avec `appendChild`.
      - Ajoutez la colonne à la `row` avec `appendChild`.
 
-7. Ajoutez des styles CSS dans une balise `<style>` dans le `<head>` pour personnaliser l'apparence des colonnes (fond blanc, padding, bordure simulant un espacement, etc.).
+7. Ajoutez des styles CSS dans une fichier `style.css` pour personnaliser l'apparence des colonnes (fond blanc, padding, bordure simulant un espacement, etc.).
 
 8. Testez votre page dans un navigateur pour vous assurer que les trois colonnes s'affichent correctement côte à côte (sur écran md+) avec le bon style et les images.
 
